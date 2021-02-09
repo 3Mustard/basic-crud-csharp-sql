@@ -8,8 +8,10 @@ namespace CRUDApp
     {
         static void Main(string[] args)
         {
+            //This example uses a database that contains the following table: { Id: PrimaryKey int, Username: varchar(50), Password: varchar(50) }
+
             //CREATE
-            //SqlConnection cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Matt\source\repos\CRUDApp\CRUDApp\Database1.mdf;Integrated Security=True");
+            //SqlConnection cn = new SqlConnection(@"PUT DATA CONNECTION STRING HERE");
             //cn.Open();
 
             //string Username, Password, Id;
@@ -27,7 +29,7 @@ namespace CRUDApp
             //Console.WriteLine("Success!");
 
             //UPDATE
-            //SqlConnection cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Matt\source\repos\CRUDApp\CRUDApp\Database1.mdf;Integrated Security=True");
+            //SqlConnection cn = new SqlConnection(@"PUT DATA CONNECTION STRING HERE");
             //cn.Open();
             //string Username, Password, Id;
             //Console.WriteLine("Enter The id of the user to update and the new username/password: ");
@@ -43,7 +45,7 @@ namespace CRUDApp
             //Console.WriteLine("Success!");
 
             //Delete
-            //SqlConnection cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Matt\source\repos\CRUDApp\CRUDApp\Database1.mdf;Integrated Security=True");
+            //SqlConnection cn = new SqlConnection(@"PUT DATA CONNECTION STRING HERE");
             //cn.Open();
             //string Id;
             //Console.WriteLine("Enter The id of the user you wish to delete: ");
@@ -55,7 +57,7 @@ namespace CRUDApp
             //Console.WriteLine("Success!");
 
             //SELECT ALL
-            //SqlConnection cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Matt\source\repos\CRUDApp\CRUDApp\Database1.mdf;Integrated Security=True");
+            //SqlConnection cn = new SqlConnection(@"PUT DATA CONNECTION STRING HERE");
             //cn.Open();
             //SqlCommand cmd = new SqlCommand("SELECT * FROM CrudAppUsers", cn);
             //SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -73,7 +75,7 @@ namespace CRUDApp
             //Console.WriteLine("Success!");
 
             //SELECT BY ID
-            //SqlConnection cn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Matt\source\repos\CRUDApp\CRUDApp\Database1.mdf;Integrated Security=True");
+            //SqlConnection cn = new SqlConnection(@"PUT DATA CONNECTION STRING HERE");
             //cn.Open();
             //string Id;
             //Console.WriteLine("Enter The id of the user you wish to select: ");
